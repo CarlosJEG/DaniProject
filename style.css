@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HEADER */
+.header {
+  height: 100px;
+}
+
+.headerContainer {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbarItems {
+  display: flex;
+  gap: 35px;
+}
+
+.navbarItems li {
+  list-style: none;
+  font-weight: 500;
+}
+
+.navbarButton {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  background-image: url(./main.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 85%;
+  display: flex;
+}
+
+.mainContent {
+  flex: 0 0 50%;
+}
+
+.mainImage {
+  flex: 0 0 50%;
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainTitle {
+  margin-left: 85px;
+  margin-top: 28px;
+}
+
+.mainTitle h2 {
+  line-height: 86px;
+  font-weight: 900;
+  font-size: 52px;
+}
+
+.mainDescription {
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.mainButton {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 250px;
+  margin-top: 50px;
+}
